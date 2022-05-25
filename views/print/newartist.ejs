@@ -1,0 +1,23 @@
+<%- include("../partials/header.ejs") %>
+<div class="container-login100">
+    <div class="wrap-login20">
+        <div class="container">
+            <h2 class="showlogin">Add Artist</h2>
+            <form action="/prints" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label">nameArtist</label>
+                <input type="text" class="form-control" name="print[nameArtist]" placeholder="Artist name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">ImageArtist</label>
+                <input type="file" class="form-control" name="imageArtist" accept='image/*'>
+            </div>
+            <div class="flex-parent jc-center">
+                <a class="cancel" href="/prints">Cancel</a>
+                <button class="buttonlogin" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<%- include("../partials/footer.ejs") %>

@@ -1,0 +1,35 @@
+<%- include("../partials/header.ejs") %>
+<div class="container-login100">
+    <div class="wrap-login70">
+        <div class="container">
+            <h2 class="showlogin">Add your song</h2>
+            <form action="/prints" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label">Title</label>
+                <input type="text" class="form-control" name="print[name]" placeholder="Print title">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Artist</label>
+                <input type="text" class="form-control" name="print[Artist]" placeholder="Artist name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Lyrice</label>
+                <input type="text" class="form-control" name="print[Lyrice]" placeholder="Lyrice">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">MP3</label>
+                <input type="file" class="form-control" name="musicaudio" accept='audio/*'>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Image</label>
+                <input type="file" class="form-control" name="image" accept='image/*'>
+            </div>
+            <div class="flex-parent jc-center">
+                <a class="cancel" href="/prints">Cancel</a>
+                <button class="buttonlogin" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<%- include("../partials/footer.ejs") %>

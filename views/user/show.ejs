@@ -1,0 +1,19 @@
+<%- include("../partials/header.ejs") %>
+<!-- <h1>User profile</h1> -->
+<div class="container-login100">
+    <div class="wrap-login30">
+        <div class="container">
+            <h1><%= user.firstName + ' ' + user.lastName %></h1>
+            <img src="<%= user.profileImage %>" class="rounded-circle" width="270px" height = '270px'>
+            <p>
+                <a href='mailto: <%= user.email %>'> <%= user.email %></a>
+            </p>
+            <ul>
+                <% prints.forEach(function(print){ %>
+                    <li><a href='/prints/<%= print.id %>'><%= print.name %></a></li>
+                <% });%>
+            </ul>
+        </div>
+    </div>
+</div>
+<%- include("../partials/footer.ejs") %>

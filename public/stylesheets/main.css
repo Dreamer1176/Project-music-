@@ -1,0 +1,260 @@
+.index-image{
+  object-fit: cover;
+}
+
+#delete-form{
+    display: inline;
+}
+
+.d-flex {
+    height: 40px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+}
+body{
+    background-color: #671E8B;
+}
+h2{
+    color: white;
+    padding: 50px 50px 100px 30px;
+}
+h1{
+    color: white;
+}
+
+h3{
+  color: white;
+}
+
+h4{
+  color: white;
+}
+p{
+  color: white;
+} 
+
+.card-text{
+  color: #595959;
+}
+
+.navbar {
+    background-color: #FFE71A;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0px;
+    background-color: #FFE71A; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-color: #671E8B;
+  }
+  
+  /* The navigation menu links */
+  .nav-link {
+    padding: 7px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #595959;
+    text-align: center;
+    display: inline block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .container-login100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: #671E8B;
+  }
+
+  .wrap-login100 {
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+
+  .wrap-login80 {
+    width: 500px;
+    height: 740px;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+
+  .wrap-login70 {
+    width: 500px;
+    height: 560px;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+
+  .wrap-login60 {
+    width: 500px;
+    height: 830px;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+
+  .wrap-login50 {
+    width: 500px;
+    height: 230px;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+  .wrap-login40 {
+    width: 900px;
+    height: 800px;
+    background: rgb(70, 70, 70);
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+  .wrap-login30 {
+    width: 1000px;
+    height: 700px;
+    background: rgb(70, 70, 70);
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+
+  .wrap-login20 {
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+
+  }
+.row{
+    margin-right: 190px; /* Same as the width of the sidenav */
+    padding: 0px 50px;
+}
+
+.showlogin{
+  color: #595959;
+  padding: 10px 40px;
+}
+
+.description{
+  color: #595959;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.buttonlogin {
+  background-color: #FFE71A; 
+  color: #595959; 
+  border: 2px solid #c2c2c2;
+  border-radius: 30px;
+  width: 90px;
+  height: 48px;
+}
+
+.buttonlogin:hover {
+  background-color: #ffffff;
+  color: #595959;
+  
+}
+.cancel:link, .cancel:visited {
+  background-color: white;
+  color: #595959;
+  border: 2px solid #c2c2c2;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.cancel:hover, .cancel:active {
+  background-color: #c2c2c2;
+  color: white;
+}
+
+.addsong:link, .addsong:visited {
+  background-color: #FFE71A;
+  color: #595959;
+  border: 2px solid #c2c2c2;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.addsong:hover, .addsong:active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.form-control{
+  border-radius: 20px;
+}
+
+.navbar-brand{
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #595959;
+}
+.logo{
+  padding-left: 10px;
+}
+
+/* .mp3{
+  float: right;
+} */
+
+.landing{
+  font-family: 'Cabin Condensed', sans-serif;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:1200px;height:auto;
+padding-top: 270px;
+padding-left: 100px;
+}
+
